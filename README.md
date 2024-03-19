@@ -10,6 +10,7 @@
 - Automation
 - Green energy
 - Sharing knowledge
+- Privacy
 
 ## ◀️ In the past I've worked on:
 - Cloud NGFW for AWS at [Palo Alto Networks](https://paloaltonetworks.com)
@@ -23,6 +24,9 @@
 - Salt
 - Docker
 - Kubernetes
+- MySQL/MariaDB
+- AWS
+- GCP
 
 ## 🌱 I’m currently learning
 - Golang
