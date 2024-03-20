@@ -22,7 +22,7 @@ jobs:
           input_path: resume/resume.md
           output_dir: out
       - name: Rename pdf
-        run: cp out/RESUME.pdf ./resume/${GITHUB_REPOSITORY_OWNER}_resume.pdf
+        run: cp out/resume.pdf ./resume/${GITHUB_REPOSITORY_OWNER}_resume.pdf
         env:
           GITHUB_REPOSITORY_OWNER: ${{ github.repository_owner }}
       - name: Create Release
