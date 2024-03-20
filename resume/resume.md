@@ -8,7 +8,8 @@
 ### Covariant AI: Production Engineer, Sep 2022-
 - Enhanced connectivity between on-prem servers, developers, and customers
 - Migrated the configuration management stack to Puppet and Terraform
-- Expanded our compute capacity in varied cloud environments to maximize GPU availability 
+- Expanded our compute capacity in varied cloud environments to maximize GPU availability
+- Orchestrated Kubernetes clusters across various clouds and regions
 - Brought security into developer workflows, adopting better practices
 
 ### Palo Alto Networks: DevOps Site Reliability Engineer,  Intern: Jun - Sep 2020, Aug 2021-Sep 2022

@@ -17,10 +17,12 @@ jobs:
       - name: Build PDF from Markdown
         uses: BaileyJM02/markdown-to-pdf@v1.2.0
         with:
-          input_path: RESUME.md
+          theme: resume/resume.css
+          extend_default_theme: true
+          input_path: resume/resume.md
           output_dir: out
       - name: Rename pdf
-        run: cp out/RESUME.pdf ./${GITHUB_REPOSITORY_OWNER}_resume.pdf
+        run: cp out/RESUME.pdf ./resume/${GITHUB_REPOSITORY_OWNER}_resume.pdf
         env:
           GITHUB_REPOSITORY_OWNER: ${{ github.repository_owner }}
       - name: Create Release
@@ -42,6 +44,6 @@ jobs:
           GITHUB_REPOSITORY_OWNER: ${{ github.repository_owner }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./${{ github.repository_owner }}_resume.pdf
+          asset_path: ./resume/${{ github.repository_owner }}_resume.pdf
           asset_name: ${{ github.repository_owner }}_resume.pdf
           asset_content_type: application/pdf
