@@ -14,6 +14,7 @@
 
 ## ◀️ In the past I've worked on:
 - Cloud NGFW for AWS at [Palo Alto Networks](https://paloaltonetworks.com)
+  - VPN [Speedtesting](https://speedtest-demo.sre.panclouddev.com/) for Prisma Access
 - QA Automation interning at [Plex](https://plex.tv)
 
 ## 🛠️ Tools I'm familiar with:
@@ -30,6 +31,7 @@
 
 ## 🌱 I’m currently learning
 - Golang
+- Rust
 - Spanish
 
 📫 Reach me at: [contact@clayrosenthal.me](mailto:contact@clayrosenthal.me)
