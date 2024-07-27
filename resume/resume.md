@@ -1,6 +1,6 @@
 # Clayton Rosenthal
 
-## [hire@clayrosenthal.me](mailto:hire@clayrosenthal.me) | [linkedin.com/in/clay-rosenthal](https://linkedin.com/in/clay-rosenthal) | San Francisco, CA
+## [hire@clayrosenthal.me](mailto:hire@clayrosenthal.me) | [linkedin.com/in/clay-rosenthal](https://www.linkedin.com/in/clay-rosenthal) | San Francisco, CA
 
 ## Experience:
 ### Covariant: Production Engineer, Sep 2022 -
@@ -8,14 +8,14 @@
 - Created tools to help developers and customers discover and remediate issues
 - Migrated the configuration management stack to Puppet and Terraform
 - Expanded our compute capacity in varied cloud environments to maximize GPU availability
-- Orchestrated Kubernetes clusters across various clouds and regions
+- Orchestrated Kubernetes clusters across various cloud providers for AI training
 - Brought security into developer workflows, adopting better practices and tools
 
 ### Palo Alto Networks: DevOps Site Reliability Engineer, Jun 2020 - Sep 2022
 - Built containerized CI/CD pipeline to deloy and maintain Cloud NGFW for AWS
-- Developed various tools to diagnose and repair issues within a live SaaS product
 - Designed and created a website to ensure fast stable connections to internal VPN
 - Integrated monitoring software with processes to keep our service running smoothly
+- Collaborated across the team to achieve SOC II compliance and audit
 
 ### Palo Alto Networks: Quality Assurance Automation Engineering Intern, Jun - Sep 2019
 - Expedited Python scripts execution to be 167% faster, allowing customers to be protected as soon as possible.
@@ -38,7 +38,8 @@
 ### Technical:
 - Fluent in Python, Terraform, Puppet, Docker, Kubernetes
 - Experienced with AWS, GCP, and smaller GPU providers
-- Proficient with Adobe Photoshop, Illustrator, and Dreamweaver
+- Comfortable with Linux on servers and the desktop
+- Practiced with Github Actions and Jenkins CI/CD
 ### Personal:
 - Team building and project execution
 - Task delegation and team support
