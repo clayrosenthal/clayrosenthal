@@ -1,7 +1,7 @@
 ### Hi there 👋, welcome to my profile!
 
 ## 🔭 I’m currently working on:
-- AI Robotics at [Covariant](https://covariant.ai)
+- AI Robotics at [Amazon Robotics](https://www.aboutamazon.com/news/tag/robotics)
 - Self Hosting random services
 - Various tinkering
 
@@ -13,6 +13,7 @@
 - Privacy
 
 ## ◀️ In the past I've worked on:
+- AI Robotics at [Covariant](https://covariant.ai)
 - Cloud NGFW for AWS at [Palo Alto Networks](https://paloaltonetworks.com)
   - VPN [Speedtesting](https://speedtest-demo.sre.panclouddev.com/) for Prisma Access
 - QA Automation interning at [Plex](https://plex.tv)
