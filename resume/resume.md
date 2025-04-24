@@ -3,7 +3,14 @@
 ## [hire@clayrosenthal.me](mailto:hire@clayrosenthal.me) | [linkedin.com/in/clay-rosenthal](https://www.linkedin.com/in/clay-rosenthal) | San Francisco, CA
 
 ## Experience:
-### Covariant: Production Engineer, Sep 2022 -
+
+### Amazon: Software Development Engineer, Sep 2024 -
+- Streamlined access to GPU clusters for large VLM training
+- Managed usage of high cost training assets
+- Built tools to help share insights and data across the org
+- Collaborated with open source tool developers to improve both of our software
+
+### Covariant: Production Engineer, Sep 2022 - Sep 2024
 - Enhanced connectivity between on-prem servers, developers, and customers
 - Created tools to help developers and customers discover and remediate issues
 - Migrated the configuration management stack to Puppet and Terraform
@@ -40,7 +47,3 @@
 - Experienced with AWS, GCP, and smaller GPU providers
 - Comfortable with Linux on servers and the desktop
 - Practiced with Github Actions and Jenkins CI/CD
-### Personal:
-- Team building and project execution
-- Task delegation and team support
-- Able to establish rapport quickly
