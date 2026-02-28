@@ -1,7 +1,7 @@
 ### Hi there 👋, welcome to my profile!
 
 ## 🔭 I’m currently working on:
-- AI Robotics at [Amazon FAR](https://www.aboutamazon.com/news/tag/robotics)
+- AI Robotics at [Amazon FAR](https://github.com/amazon-far)
 - Self Hosting random services
 - Various tinkering
 
