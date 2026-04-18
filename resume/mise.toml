@@ -1,16 +1,15 @@
 [tools]
-node = "lts"
-"npm:md-to-pdf" = "latest"
+typst = "latest"
 
 
 [tasks.pdf]
-description = "Convert resume.md to resume.pdf"
-run = "md-to-pdf --stylesheet resume.css --page-media-type print resume.md"
+description = "Compile resume.typ to resume.pdf"
+run = "typst compile resume.typ resume.pdf"
 
 
 [tasks.edit-resume]
-description = "Edit resume and then convert to pdf"
-run = "vim resume.md"
+description = "Edit resume and then compile to pdf"
+run = "vim resume.typ"
 depends_post = ["pdf"]
 
 [tasks.publish-resume]
@@ -19,7 +18,7 @@ run = """
 #!/bin/bash
 
 tag="resume-$(date -Idate)"
-git tag "$tag" || (git tag --force "$tag") 
+git tag "$tag" || (git tag --force "$tag")
 
 git push --tags --force
 """
