@@ -2,7 +2,14 @@
 node = "lts"
 "npm:md-to-pdf" = "latest"
 
+
 [tasks.pdf]
 description = "Convert resume.md to resume.pdf"
 run = "md-to-pdf --stylesheet resume.css --page-media-type print resume.md"
 env = { PUPPETEER_EXECUTABLE_PATH = "/var/lib/flatpak/exports/bin/io.github.ungoogled_software.ungoogled_chromium" }
+
+
+[tasks.edit-resume]
+description = "Edit resume and then convert to pdf"
+run = "vim resume.md"
+depends_post = ["pdf"]

@@ -4,11 +4,13 @@
 
 ## Experience:
 
-### Amazon: Software Development Engineer, Sep 2024 -
-- Streamlined access to GPU clusters for large VLM training
-- Managed usage of high cost training assets
-- Built tools to help share insights and data across the org
-- Collaborated with open source tool developers to improve both of our software
+### Amazon: Member of Technical Staff, Sep 2024 -
+- Managed thousands of GPUs across multiple data centers for large-scale VLM training
+- Introduced job management and queueing with SkyPilot to improve GPU utilization and reduce researcher wait times
+- Facilitated secure deployment of dozens of internal applications using AWS CDK and Kubernetes
+- Built internal tooling that accelerated 100+ engineers and researchers with improved cluster access, data sharing, and observability
+- Oversaw open source release of [Holosoma](https://github.com/amazon-far/holosoma), which surpassed 1,000 GitHub stars
+- Worked across the PyTorch, CUDA, and vLLM ecosystems to improve training infrastructure
 
 ### Covariant: Production Engineer, Sep 2022 - Sep 2024
 - Enhanced connectivity between on-prem servers, developers, and customers
@@ -19,7 +21,7 @@
 - Brought security into developer workflows, adopting better practices and tools
 
 ### Palo Alto Networks: DevOps Site Reliability Engineer, Jun 2020 - Sep 2022
-- Built containerized CI/CD pipeline to deloy and maintain Cloud NGFW for AWS
+- Built containerized CI/CD pipeline to deploy and maintain Cloud NGFW for AWS
 - Designed and created a website to ensure fast stable connections to internal VPN
 - Integrated monitoring software with processes to keep our service running smoothly
 - Collaborated across the team to achieve SOC II compliance and audit
@@ -39,11 +41,11 @@
 ### California Polytechnic State University, San Luis Obispo
 - BS in Computer Engineering – Class of 2021
 - Awards: Summa Cum Laude, GPA: 3.78
-- Relevant coursework: Knowledge Discovery from Data, Data Structures, Discrete Structures, Computer Networks, Object Orientated Design
+- Relevant coursework: Knowledge Discovery from Data, Data Structures, Discrete Structures, Computer Networks, Object Oriented Design
 
 ## Competencies:
 ### Technical:
-- Fluent in Python, Terraform, Puppet, Docker, Kubernetes
-- Experienced with AWS, GCP, and smaller GPU providers
+- Fluent in Python, Terraform, Puppet, Docker, Kubernetes, AWS CDK
+- Experienced with AWS, GCP, and neo-cloud GPU providers; ML infra including PyTorch, CUDA, vLLM, and SkyPilot
 - Comfortable with Linux on servers and the desktop
 - Practiced with Github Actions and Jenkins CI/CD
