@@ -19,7 +19,7 @@ run = """
 #!/bin/bash
 
 tag="resume-$(date -Idate)"
-git tag "$tag" || (git tag -D "$tag"; git tag "$tag") 
+git tag "$tag" || (git tag --force "$tag") 
 
-git push --tags
+git push --tags --force
 """
