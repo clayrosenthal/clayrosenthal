@@ -13,9 +13,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
       - name: Install mise
-        uses: jdx/mise-action@v2
+        uses: jdx/mise-action@v4
         with:
           working_directory: resume
       - name: Compile pdf
@@ -24,7 +24,7 @@ jobs:
       - name: Rename PDF
         run: cp resume/resume.pdf resume/${{ github.repository_owner }}_resume.pdf
       - name: Create Release and Upload Asset
-        uses: softprops/action-gh-release@v2
+        uses: softprops/action-gh-release@v3
         with:
           name: Release ${{ github.ref_name }}
           files: resume/${{ github.repository_owner }}_resume.pdf
