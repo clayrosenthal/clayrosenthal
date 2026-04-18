@@ -8,20 +8,26 @@ name: Upload Resume PDF
 jobs:
   build:
     name: Upload Release Asset
-    permissions: 
+    permissions:
       contents: write
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
-      - name: Setup Node
-        uses: actions/setup-node@v4
-        with:
-          node-version: '22.x'
-      - name: Generate pdf
+      - name: Install Chrome dependencies
         run: |
-          npm install md-to-pdf
-          npx md-to-pdf --stylesheet ./resume/resume.css --page-media-type print ./resume/resume.md
+          sudo apt-get update
+          sudo apt-get install -y \
+            libnspr4 libnss3 libatk1.0-0 libatk-bridge2.0-0 \
+            libcups2 libdrm2 libxkbcommon0 libxcomposite1 \
+            libxdamage1 libxfixes3 libxrandr2 libgbm1 libasound2t64
+      - name: Install mise
+        uses: jdx/mise-action@v2
+        with:
+          working_directory: resume
+      - name: Generate pdf
+        run: mise run pdf
+        working-directory: resume
       - name: Create Release
         id: create_release
         uses: actions/create-release@main
