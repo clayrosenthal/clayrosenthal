@@ -32,7 +32,7 @@
 
 #show heading.where(level: 3): it => {
   v(0.7em, weak: true)
-  set text(size: 12pt, weight: "bold")
+  set text(size: 11pt, weight: "bold")
   it.body
   v(0.5em, weak: true)
 }
@@ -97,4 +97,4 @@
 - Fluent in Python, Terraform, Puppet, Docker, Kubernetes, AWS CDK
 - Experienced with AWS, GCP, and neo-cloud GPU providers; ML infra including PyTorch, CUDA, vLLM, and SkyPilot
 - Comfortable with Linux on servers and the desktop
-- Practiced with Github Actions and Jenkins CI/CD
+- Practiced with #link("https://github.com/clayrosenthal")[Github] #link("https://github.com/clayrosenthal/clayrosenthal/releases/latest/download/clayrosenthal_resume.pdf")[Actions] and Jenkins CI/CD
