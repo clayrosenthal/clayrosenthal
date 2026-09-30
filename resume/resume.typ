@@ -58,6 +58,7 @@
 - Built internal tooling that accelerated 100+ engineers and researchers with improved cluster access, data sharing, and observability
 - Oversaw open source release of #link("https://github.com/amazon-far/holosoma")[Holosoma], which surpassed 1,000 GitHub stars
 - Worked across the PyTorch, CUDA, and vLLM ecosystems to improve training infrastructure
+- Accelerated policy evaluations with custom tooling to launch dozens of parallel sim environments
 
 === #link("https://covariant.ai")[Covariant]: Production Engineer, Sep 2022 – Sep 2024
 - Enhanced connectivity between on-prem servers, developers, and customers
