@@ -95,7 +95,8 @@
 == Competencies
 
 === Technical
-- Fluent in Python, Terraform/OpenTofu, Puppet, Docker, Kubernetes, AWS CDK
+- Fluent in Python, Terraform/OpenTofu, Puppet, Docker, Kubernetes
+- Proficient with TypeScript and React, including internal tooling apps and CDK infrastructure
 - Experienced with AWS, GCP, and neo-cloud GPU providers; ML infra including PyTorch, CUDA, vLLM, and SkyPilot
 - Comfortable with Linux on servers and the desktop
 - Practiced with #link("https://github.com/clayrosenthal")[Github] #link("https://github.com/clayrosenthal/clayrosenthal/releases/latest/download/clayrosenthal_resume.pdf")[Actions], Jenkins, and Argo CI/CD
